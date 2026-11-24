@@ -3,7 +3,7 @@ import { localeData } from '~/../data/locales'
 import { provideLocale } from '~/composables/useLocale'
 import { getYM } from '~/utils/getYM'
 
-const YM_ID = '999999999' // ⚠️ ЗДЕСЬ МЕНЯТЬ ID ЯНДЕКС.МЕТРИКИ
+const YM_ID = '114649258' // ⚠️ ЗДЕСЬ МЕНЯТЬ ID ЯНДЕКС.МЕТРИКИ
 const { locale } = provideLocale()
 
 useHead(() => {

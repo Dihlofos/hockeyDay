@@ -1,4 +1,19 @@
 <script setup>
+definePageMeta({
+  layout: false,
+})
+
+useHead({
+  title: '',
+})
+</script>
+
+<template>
+  <Placeholder />
+</template>
+
+
+<!-- <script setup>
 import { computed } from 'vue'
 import { useLocaleData } from '~/composables/useLocale'
 
@@ -17,4 +32,5 @@ useHead({
     <HeroSection v-bind="heroData" />
     <Faq :title="faqData.title" :items="faqData.items" :images="faqData.images" />
   </main>
-</template>
+</template> -->
+
