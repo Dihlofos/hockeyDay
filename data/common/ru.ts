@@ -1,9 +1,9 @@
 export default {
   site: {
-    title: 'Мой сайт',
-    description: 'Современный статический сайт на Nuxt 3',
-    keywords: ['nuxt', 'vue', 'ssg', 'template'],
-    url: 'https://example.com',
+    title: 'День хоккея в Москве — 19 декабря в Лужниках',
+    description: 'Турнир 3×3, мастер-классы Дацюка, Николишина и Ковальчука, автограф-сессии, шатры клубов и концерт. 19 декабря, Лужники. Регистрация открыта.',
+   //  keywords: ['nuxt', 'vue', 'ssg', 'template'],
+   //  url: 'https://example.com',
     ogImage: '/images/favicons/favicon.svg',
   },
   navigation: {
